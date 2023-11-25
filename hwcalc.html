@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button{
+            height:100%;
+            width:100%;
+            background-color:palevioletred;
+           
+        }
+        .me{
+            height:200px;
+             width:70%;
+        }
+    </style>
+</head>
+<body style="background-color: burlywood;">
+    <h2 align="center"><u><b> CALCULATOR</h2></b></u>
+    <forms>
+        <table align="center" cellpadding="2px";  border="10" class="me">
+            <tr>
+                 <td align="center" colspan="4"><input type="text" id="txt1"  placeholder="ENTER HERE"></td>
+            </tr>
+             <tr>
+                
+                <td> <input type="button" class="button" value="9" onclick="equation(this.value)"></td>
+                 <td>  <input type="button" class="button" value="8" onclick="equation(this.value)"></td>
+                 <td>  <input type="button" class="button" value="7" onclick="equation(this.value)"></td>
+                 <td> <input type="button" class="button" value="*" onclick="equation(this.value)"></td>
+             </tr>
+             <tr>
+                
+                    <td> <input type="button" class="button" value="6" onclick="equation(this.value)"></td>
+                    <td>  <input type="button" class="button"  value="5" onclick="equation(this.value)"></td>
+                    <td>  <input type="button" class="button" value="4" onclick="equation(this.value)"></td>
+                    <td>  <input type="button" class="button" value="+" onclick="equation(this.value)"></td>
+             </tr>
+             <tr>
+                
+                    <td>  <input type="button" class="button" value="3" onclick="equation(this.value)"></td>
+                    <td>  <input type="button" class="button" value="2" onclick="equation(this.value)"></td>
+                    <td>  <input type="button" class="button" value="1" onclick="equation(this.value)"></td>
+                    <td>  <input type="button" class="button" value="0" onclick="equation(this.value)"></td>
+             </tr>
+             <tr>
+
+                    <td ><input type="button" class="button" value="/" onclick="equation(this.value)"></td>
+                    <td ><input type="button" class="button" value="=" onclick="calculation(this.value)"></td>
+                    <td><input type="button" class="button" value="c" onclick="clr(this.value)"></td>
+                    <td ><input type="button" class="button" value="-" onclick="equation(this.value)"></td>
+             </tr>
+        </table>
+    </forms>
+    <script src="hw.js"></script>
+</body>
+</html>

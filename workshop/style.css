@@ -1,0 +1,23 @@
+.q{
+    color: burlywood;
+}
+#w{
+    color: chocolate;
+}
+.h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: chartreuse;
+    border-color: blueviolet;
+    text-align: center;
+    border: 3px blue dotted;
+}
+/*.link:hover{
+    background-color:blue;
+}
+.link.active{
+    background-coloe:green;
+}
+.link.visited;{
+}
+.
